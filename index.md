@@ -1,6 +1,7 @@
 ---
-layout: home
-title: Bienvenido a mi sitio
+title: My promo page title
+layout: promo-page
+
 ---
 
 ¡Este sitio usa el tema Bulma Clean Theme con Jekyll!

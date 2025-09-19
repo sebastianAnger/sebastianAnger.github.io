@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+title: My promo page title
+layout: promo-page
 permalink: /about/
 ---
 
