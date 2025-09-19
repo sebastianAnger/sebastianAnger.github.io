@@ -1,0 +1,15 @@
+/* Estilos inspirados en Bulma Clean Theme */
+body {
+  background: #f5f6fa;
+}
+.hero.is-primary {
+  background: linear-gradient(120deg, #00c4a7 0%, #209cee 100%);
+}
+.box {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.button.is-light.is-large {
+  font-size: 1.25rem;
+  padding: 1em 2em;
+}
