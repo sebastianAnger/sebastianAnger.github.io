@@ -5,11 +5,20 @@ body {
 .hero.is-primary {
   background: linear-gradient(120deg, #00c4a7 0%, #209cee 100%);
 }
-.box {
+/* .box {
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
+
+.box:hover ~ * {
+  border-width: 22px;
+}
+
 .button.is-light.is-large {
   font-size: 1.25rem;
   padding: 1em 2em;
-}
+} */
