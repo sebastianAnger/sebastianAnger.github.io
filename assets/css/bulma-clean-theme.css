@@ -5,6 +5,17 @@ body {
 .hero.is-primary {
   background: linear-gradient(120deg, #00c4a7 0%, #209cee 100%);
 }
+
+/*Choregraphe*/
+.fas.fa-laptop-code {
+  color: #209cee;
+}
+
+/*Python*/
+.fab.fa-python {
+  color: #ffae00;
+}
+
 /* .box {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);

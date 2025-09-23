@@ -526,7 +526,7 @@ table th {
   -o-transition: .3s;
 }
 .box:hover {
-  border-bottom-width: 100px;
+  border-bottom-width: 50px;
   /*transition: .9s;
   /*height: 200%;
   width: 100%;*/
