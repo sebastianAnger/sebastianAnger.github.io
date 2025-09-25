@@ -519,18 +519,19 @@ table th {
   -o-border-radius: 6px;
   border-bottom: 1px solid #ffffff;
   margin: 1px;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .box:hover {
-  border-bottom-width: 50px;
+  border-bottom-width: 1px;
+
   /*transition: .9s;
   /*height: 200%;
-  width: 100%;*/
-    /*Puedo cambiar esto por hacer el BOX mas largo*/
+  width: 100%;
+  *//*PuedocambiarestoporhacerelBOXmaslargo*/
 }
 /* hover-text TEXTO*/
 .box .hover-text {
