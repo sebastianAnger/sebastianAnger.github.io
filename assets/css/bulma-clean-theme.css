@@ -16,7 +16,8 @@ body {
   color: #ffae00;
 }
 
-/* PBE */
+/* PBE  ----- CARD ------*/
+
 .card{
     position: relative;
     width: 350px;
@@ -40,41 +41,56 @@ body {
 
   .card .face.face1{
     box-sizing: border-box;
-    padding: 20px;
+    padding: 15px;
   }
 
   .card .face.face1 h2{
     margin: 0;
     padding: 0;
+    font-size: 2em;
   }
 
   .card .face.face1 .content{
-    font-size:1.2em;
-    margin:0;
-    padding:0 0 1em 0;
-    font-weight:500;
+    font-size: 1em;
+    margin: 0x;
+    padding:0 0 5em 0;
+    font-weight:400;
+    text-align: center;
   }
 
   .card .face.face2{
+    /* -*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Opcional, para centrar verticalmente */
+    /*-*/
     background: #111;
     transition: 0.5s;
-  }
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
 
-  .card:nth-child(1) .face.face2{
+  .column:nth-child(1) .face.face2{
     background: linear-gradient(45deg, #3503ad, #f7308c);
     border-radius: 15px;
   }
 
-  .card:nth-child(2) .face.face2{
+  .column:nth-child(2) .face.face2{
     background: linear-gradient(45deg, #ccff00, #09afff);
     border-radius: 15px;
   }
 
-  .card:nth-child(3) .face.face2{
+  .column:nth-child(3) .face.face2{
     background: linear-gradient(45deg, #e91e63, #ffeb3b);
     border-radius: 15px;
   }
   .card:hover .face.face2{
+    flex-direction: row; /* Cambia a fila en hover */
+    align-items: center;
+    justify-content: center;
     height: 60px;
     border-radius: 0 0 15px 15px;
   }
@@ -88,11 +104,16 @@ body {
     height: 100%;
     background: rgba(255,255,255, 0.1);
     border-radius: 15px 0 0 15px;
-  }
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
+}
   .card .face.face2 h2{
     margin: 0;
     padding: 0;
-    font-size: 10em;
+    font-size: 5em;
+    text-align: center;
     color: #fff;
     transition: 0.5s;
     text-shadow: 0 2px 5px rgba(0,0,0, .2);
@@ -100,7 +121,30 @@ body {
   .card:hover .face.face2 h2{
     font-size: 2em;
   }
+  .card:hover .face.face2 p{
+    font-size: 2em;
+    display: block;
+  }
 
+  .card .face.face2 p{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0,0,0, .2);
+  }
+/*HOVER EFECCT*/
+.card .face.face2 .hover-text { display: none; }
+.card .face.face2 .default-text { display: block; }
+.card:hover .face.face2 .hover-text { display: block; }
+.card:hover .face.face2 .default-text { display: none; }
+/*--*/
+  #link{
+  color: black;
+  text-decoration: none;
+  }
 
 /* -------------- */
 
