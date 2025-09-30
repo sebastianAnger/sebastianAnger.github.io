@@ -87,6 +87,12 @@ body {
     background: linear-gradient(45deg, #e91e63, #ffeb3b);
     border-radius: 15px;
   }
+
+  .column:nth-child(4) .face.face2{
+    background: linear-gradient(45deg, #5ff38e, #171503);
+    border-radius: 15px;
+  }
+
   .card:hover .face.face2{
     flex-direction: row; /* Cambia a fila en hover */
     align-items: center;
