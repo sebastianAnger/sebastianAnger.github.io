@@ -15,9 +15,20 @@ body {
 .fab.fa-python {
   color: #ffae00;
 }
+/*JavaScript*/
+.fab.fa-js{
+  color: #dacc16;
+}
+/*HTML/CSS*/
+.far.fa-file-code{
+  color: #d64eee;
+}
+/*Kprano */
+.fas.fa-vr-cardboard{
+  color: #000;
+}
 
-/* PBE  ----- CARD ------*/
-
+/* CARD */
 .card{
     position: relative;
     width: 350px;
@@ -73,28 +84,39 @@ body {
     -o-transition: 0.5s;
 }
 
-  .column:nth-child(1) .face.face2{
+  /*.column:nth-child(1) .face.face2{
+    .column:nth-child(2) .face.face2{*/
+  #card1{
     background: linear-gradient(45deg, #3503ad, #f7308c);
     border-radius: 15px;
   }
 
-  .column:nth-child(2) .face.face2{
+  #card2{
     background: linear-gradient(45deg, #ccff00, #09afff);
     border-radius: 15px;
   }
 
-  .column:nth-child(3) .face.face2{
+  #card3{
     background: linear-gradient(45deg, #e91e63, #ffeb3b);
     border-radius: 15px;
   }
 
-  .column:nth-child(4) .face.face2{
-    background: linear-gradient(45deg, #5ff38e, #171503);
+  #card4{
+    background: linear-gradient(45deg, #4cfa54, #0602ff);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  #card5{
+    background: linear-gradient(45deg, #d772ff, #ff0077);
     border-radius: 15px;
   }
 
   .card:hover .face.face2{
-    flex-direction: row; /* Cambia a fila en hover */
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 60px;
@@ -151,29 +173,3 @@ body {
   color: black;
   text-decoration: none;
   }
-
-/* -------------- */
-
-
-
-
-
-
-
-/* .box {
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-}
-
-.box:hover ~ * {
-  border-width: 22px;
-}
-
-.button.is-light.is-large {
-  font-size: 1.25rem;
-  padding: 1em 2em;
-} */
