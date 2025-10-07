@@ -10750,9 +10750,9 @@ a.has-text-danger-dark:hover {
   flex-shrink: 0;
 }
 .hero-body {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   flex-shrink: 0;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 @media screen and (min-width: 769px), print {
   .hero-body {
